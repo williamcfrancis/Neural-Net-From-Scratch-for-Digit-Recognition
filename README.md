@@ -8,4 +8,4 @@ This shows my implementation of a Neural Network from scratch written majorly us
 Another neural network is implemented in Pytorch and its performance is compared to that of the neural network written in scratch.
 
 ![pyt](pyt1.PNG)
-![pyt](pyt2.PNG)
+![pyt](pytorch2.PNG)
