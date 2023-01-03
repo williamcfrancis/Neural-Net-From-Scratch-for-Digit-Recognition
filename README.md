@@ -1,5 +1,7 @@
 # Neural Network From Scratch for Digit Recognition
-This shows my implementation of a Neural Network from scratch written majorly using the numpy library. The backward propagation is written by taking the derivative, instead of calling a backward function of pytorch, keras, tensorflow or similar libraries. The softmax cross entropy loss is also designed with its forward and backward propagation functions. The neural network is trained on MNIST dataset and its accuracy for digit recognition is calculated.
+In this project, I implemented a Neural Network from scratch using the numpy library to recognize digits from the MNIST dataset. The backward propagation was implemented by taking the derivative, rather than using a pre-defined backward function from a library such as Pytorch, Keras, or TensorFlow. I also designed the forward and backward propagation functions for the softmax cross entropy loss.
+
+To evaluate the performance of the Neural Network, I trained it on the MNIST dataset and obtained the following results:
 
 ![train](training.PNG)
 
@@ -7,8 +9,10 @@ This shows my implementation of a Neural Network from scratch written majorly us
 
 ![val](val2.PNG)
 
-Another neural network is implemented in Pytorch and its performance is compared to that of the neural network written in scratch.
+In addition, I implemented a second Neural Network using Pytorch and compared its performance to the one implemented from scratch. The results showed that both Neural Networks achieved high accuracy on the MNIST dataset:
 
 ![pyt](pyt1.PNG)
 
 ![pyt](pytorch2.PNG)
+
+Overall, this project has allowed me to strengthen my understanding of Neural Network principles and gain experience in implementing them effectively without relying on existing libraries.
